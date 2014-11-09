@@ -38,16 +38,8 @@
 |
 */
 
-$route['default_controller'] = "home";
+$route['default_controller'] = "welcome";
 $route['404_override'] = '';
-
-// Otomatis menghilangkan controller route pertama dari website
-//$default_controller = "home";
-//$controller_exceptions = array('admin','sadmin','user','operator');
-//
-//$route['default_controller'] = $default_controller;
-//$route["^((?!\b".implode('\b|\b', $controller_exceptions)."\b).*)$"] = $default_controller.'/$1';
-//$route['404_override'] = '';
 
 
 /* End of file routes.php */
