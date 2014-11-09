@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set('Asia/Makassar');
+
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
@@ -18,31 +18,7 @@ date_default_timezone_set('Asia/Makassar');
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-
-/*
- *---------------------------------------------------------------
- * ENVIRONMENT SWITCH
- *---------------------------------------------------------------
- *
- * Script custom untuk otomatis mendeteksi environment yang digunakan
- * default adalah development 
- */
-
-        //$root = __FILE__;
-	//var_dump($root);
-	
-	switch (dirname(__FILE__))
-	{
-		case 'D:\Webserver\Web\ci_simakad\public':
-			define('ENVIRONMENT', 'development');
-			break;
-	
-		default:
-			define('ENVIRONMENT', 'production');
-			break;
-	}
-        
-	//define('ENVIRONMENT', 'development');
+	define('ENVIRONMENT', 'development');
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
@@ -57,7 +33,7 @@ if (defined('ENVIRONMENT'))
 	switch (ENVIRONMENT)
 	{
 		case 'development':
-			error_reporting(E_ALL | E_STRICT);
+			error_reporting(E_ALL);
 		break;
 	
 		case 'testing':
