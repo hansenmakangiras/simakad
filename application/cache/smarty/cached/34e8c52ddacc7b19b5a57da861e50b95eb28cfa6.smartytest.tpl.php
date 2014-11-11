@@ -5,14 +5,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '34e8c52ddacc7b19b5a57da861e50b95eb28cfa6' => 
     array (
       0 => '..\\application\\modules\\test\\views\\smartytest.tpl',
-      1 => 1415590184,
+      1 => 1415590308,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '9589545f8d4f6323c1-76221546',
   'cache_lifetime' => 3600,
   'version' => 'Smarty-3.1.17',
-  'unifunc' => 'content_54603132a1ef95_83674317',
+  'unifunc' => 'content_546093fa450799_97739580',
   'variables' => 
   array (
     'title' => 0,
@@ -21,10 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54603132a1ef95_83674317')) {function content_54603132a1ef95_83674317($_smarty_tpl) {?><html>
+<?php if ($_valid && !is_callable('content_546093fa450799_97739580')) {function content_546093fa450799_97739580($_smarty_tpl) {?><html>
 <head>
-    <title>The Smarty parser works!</title>
-    
+    <title>The Smarty parser works!</title>    
 </head>
 <body>
     This is body text to show that the Smarty Parser works!
